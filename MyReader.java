@@ -1,15 +1,14 @@
 import java.util.Scanner;
 
-public class MyReader
+public class myreader
 {
-    Scanner scanner;
-    public MyReader()
-    {
-	Scanner sc = new Scanner(System.in);
-    }
-    public int read()
-    {
-	return scanner.nextInt();
-    }
-    
+	Scanner scanner;
+	public myreader ()
+	{
+		scanner = new Scanner(System.in);
+	}
+	public int read ()
+	{
+		return scanner.nextInt();
+	}
 }
